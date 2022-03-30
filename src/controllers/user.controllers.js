@@ -4,9 +4,9 @@ const User = require("../models/user.models");
 
 const router = express.Router();
 
-const {single, multiple}=require("../middleware/uploads");
+const {single, multiple} = require("../middleware/uplode");
 
-const uploads = require("../middleware/uploads");
+const uploads = require("../middleware/uplode");
 
 
 

@@ -3,9 +3,9 @@ const express= require("express");
 
 const router= express.Router();
 // const path=require("path")
-const Gallery= require("../modols/gallery.model")
+const Gallery= require("../models/gallery.model")
 
-const {single, multiple}=require("../middleware/uploads")
+const {single, multiple}=require("../middleware/uplode")
 
 
 router.post("/gallery", multiple("gallery"), async(req,res)=>{
